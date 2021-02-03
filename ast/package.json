@@ -1,0 +1,38 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ss.js",
+  "dependencies": {
+    "_fs-extra@9.0.0@fs-extra": "^9.0.0",
+    "_xmldom@0.3.0@xmldom": "^0.3.0",
+    "fs-extra": "^9.0.0",
+    "_at-least-node@1.0.0@at-least-node": "^1.0.0",
+    "at-least-node": "^1.0.0",
+    "_universalify@1.0.0@universalify": "^1.0.0",
+    "universalify": "^1.0.0",
+    "xmldom": "^0.3.0",
+    "_graceful-fs@4.2.3@graceful-fs": "^4.2.3",
+    "graceful-fs": "^4.2.3",
+    "_jsonfile@6.0.1@jsonfile": "^6.0.1",
+    "jsonfile": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/parser": "^7.10.4",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/traverse": "^7.10.4",
+    "@babel/types": "^7.10.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

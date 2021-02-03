@@ -1,0 +1,4 @@
+{
+ "pagination": "./packages/pagination/index.js",
+ "ww": "./packages/ww/index.js"
+}
