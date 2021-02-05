@@ -1,15 +1,20 @@
-
-const { series, src, dest } = require('gulp');
-const babel = require('gulp-babel');
-function compile() {
-    console.log(3322);
-  return src('./ss.js')  // src下的所有scss文件
-    // .pipe(sass.sync())  // 把scss文件编译成css
-    .pipe(babel({
-        presets: ['@babel/preset-env']
-    }))
-    .pipe(dest('dist'))
-}
-exports.build = series(compile);
-
-
+const gulp = require("gulp")
+const babel = require("gulp-babel")
+console.log(33)
+gulp.task("sass", function () {
+    gulp.src("./ww.js")
+        .pipe(
+            babel({
+                presets: ["@babel/preset-env"],
+                plugins: [
+                    '@babel/plugin-proposal-class-properties'
+                ]
+            })
+        )
+        .pipe(gulp.dest("./dist/"))
+    // return new Promise(function (resolve) {
+    //     resolve()
+    // })
+})
+gulp.task("default", gulp.series("sass"))
+console.log(22)
